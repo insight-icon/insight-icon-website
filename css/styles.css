@@ -52,7 +52,7 @@ main > .intro {
 main > .tagline {
 	font-size: 1.5rem;
 	font-weight: 100;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .icons-social i {
@@ -102,17 +102,7 @@ button:active {
 	transform: translateY(4px);
 }
 
-button:focus {outline:0;
+button:focus {
+	outline:0;
 }
 
-
-.col-md-4 {
-	margin-top: 25px;
-}
-.col-md-6 {
-	margin-top: 25px;
-}
-
-nav {
-	background-color: #485564;
-}
