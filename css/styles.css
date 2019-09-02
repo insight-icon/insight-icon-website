@@ -45,18 +45,21 @@ main {
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+	font-size: xx-large;
 	font-weight: 600;
 }
 
 main > .tagline {
 	font-size: 1.5rem;
-	margin: 1.5rem 0;
 	font-weight: 100;
+	margin-bottom: 20px;
 }
 
 .icons-social i {
+	margin-bottom: 72px;
+	margin-top: 40px;
 	padding: 10px;
+	
 }
 
 .devto {
@@ -68,4 +71,48 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.header-image {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.link-button {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: xx-large;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 15px:;
+	height: 100%;
+	width: 100%;
+	/*background-color: #485564;*/
+	background-color: #0D1F2D;
+	color: white;
+	box-shadow: 2px 4px #0D1F2D;
+	border-radius: 5px;
+
+}
+
+button:active {
+	transform: translateY(4px);
+}
+
+button:focus {outline:0;
+}
+
+
+.col-md-4 {
+	margin-top: 25px;
+}
+.col-md-6 {
+	margin-top: 25px;
+}
+
+nav {
+	background-color: #485564;
 }
