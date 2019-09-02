@@ -49,10 +49,10 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tagline {
-	font-size: 1.5rem;
+.tagline {
+	font-size: x-large;
 	font-weight: 100;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .icons-social i {
@@ -74,7 +74,7 @@ main > .tagline {
 }
 
 .header-image {
-	width: 100%;
+	width: 1000%;
 	margin-right: auto;
 	margin-left: auto;
 }
